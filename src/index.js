@@ -5,7 +5,6 @@ module.exports = function getZerosCount(number) {
   while(num > 0)
   {
     num /= 5;
-    //console.log(num);
     result += Math.floor(num);
   }
 
